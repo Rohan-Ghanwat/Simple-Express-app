@@ -1,0 +1,47 @@
+/* Style the form */
+#contact-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style the form labels and inputs */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input, textarea {
+    width: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  input:focus, textarea:focus {
+    border-color: #aaa;
+  }
+
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Style the feedback message */
+  #feedback {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
